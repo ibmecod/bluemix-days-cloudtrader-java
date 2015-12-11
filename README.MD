@@ -17,9 +17,9 @@ Deploying CloudTrader onto BlueMix with Eclipse
 
 4) This application requires a 'SQLDB' database service. Decide what you want to call this service, for example "MyDataSource123". There are two places in the application that need this name. Currently this points to "TradeDataSource". Replace this with your new name.
 		1) com/ibm/samples/trade/TradeConfig.java:
-		public static String DS_NAME = "java:comp/env/jdbc/MyDataSource123"; 
+		public static String DS_NAME = "java:comp/env/jdbc/cloudtrader-SQLDB"; 
 		2) WebContent/WEB-INF/web.xml
-		<res-ref-name>jdbc/MyDataSource123</res-ref-name>
+		<res-ref-name>jdbc/cloudtrader-SQLDB</res-ref-name>
 
 5) Assuming Eclipse does not show errors, you are ready to push the application. 
 		http://docs.cloudfoundry.com/docs/using/managing-apps/ide/sts.html#deploy-an-application

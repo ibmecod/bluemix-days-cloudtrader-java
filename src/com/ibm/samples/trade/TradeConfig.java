@@ -69,7 +69,7 @@ public class TradeConfig {
 	/* Trade Database specific parameters */
 	public static String JDBC_UID = null;
 	public static String JDBC_PWD = null;
-	public static String DS_NAME = "java:comp/env/jdbc/TradeDataSource";
+	public static String DS_NAME = "java:comp/env/jdbc/cloudtrader-SQLDB";
 
 	/*Trade SOAP specific parameters */
 	private static String SoapURL =

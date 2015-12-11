@@ -14,6 +14,9 @@
 		<fileset dir="WebContent/WEB-INF/lib"> 
         	<include name="*.jar"/> 
     	</fileset>
+		<fileset dir="dep-jar"> 
+        	<include name="*.jar"/> 
+    	</fileset>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
