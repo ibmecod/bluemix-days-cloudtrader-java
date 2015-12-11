@@ -1,0 +1,8 @@
+{
+ "name": "Bluemix Days Cloud Trader",
+ "version": "1.0.0",
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/ibmecod/bluemix-days-cloudtrader-java.git"
+ }
+}
