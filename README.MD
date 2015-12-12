@@ -1,6 +1,6 @@
-*************************************************************
-Deploying CloudTrader onto BlueMix with Eclipse
-*************************************************************
+
+# Deploying CloudTrader onto BlueMix with Eclipse
+
 1) Follow these instructions to pull the code into your Eclipse with RTC. You will need Eclipse for Java EE Developers.
 	https://hub.jazz.net/tutorials/clients#eclipse
 
@@ -45,9 +45,12 @@ Adding the Log Analysis service using the ACE UI
 
 7) You should now be able to click on the various pipes and see some interesting analytics!    
 
+# One click deploy to Bluemix
+To deploy this app to your Bluemix click this deploy button.
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy)
+
 
 # Privacy Notice
-
 Sample web applications that include this package may be configured to track deployments to [IBM Bluemix](https://www.bluemix.net/) and other Cloud Foundry platforms. The following information is sent to a [Deployment Tracker](https://github.com/IBM-Bluemix/cf-deployment-tracker-service) service on each deployment:
 
 * Node.js package version
