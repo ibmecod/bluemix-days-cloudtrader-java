@@ -28,9 +28,7 @@
 6) Finish the wizard and wait for your app and service to be deployed. Then you're done! You will find the application URL on the "Overview" page when you double click on your application in the Servers tab.
    Once you launch the application, you will need to populate your database with dummy users and stocks. Find the link to do this in the "Configuration" tab on the CloudTrader homepage.
 
-*************************************************************
-Adding the Log Analysis service using the ACE UI
-*************************************************************
+## Adding the Log Analysis service using the ACE UI
 1) Log in to the ACE UI http://api.ng.bluemix.net and click on your application. 
 
 2) Click on the button to Add a new service. Find the LogAnalysis service and add it to your application. Then, Stop and Start your application.
