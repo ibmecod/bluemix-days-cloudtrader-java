@@ -15,7 +15,7 @@
 		URL: http://api.ng.bluemix.net
 	Return to the previous screen, enter your BlueMix credentials, and select BlueMix in the URL dropdown.
 
-4) This application requires a 'SQLDB' database service. Decide what you want to call this service, for example "MyDataSource123". There are two places in the application that need this name. Currently this points to "TradeDataSource". Replace this with your new name.
+4) This application requires a 'SQLDB' database service. Decide what you want to call this service, for example "cloudtrader-SQLDB123". There are two places in the application that need this name. Currently this points to "cloudtrader-SQLDB". Replace this with your new name.
 		1) com/ibm/samples/trade/TradeConfig.java:
 		public static String DS_NAME = "java:comp/env/jdbc/cloudtrader-SQLDB"; 
 		2) WebContent/WEB-INF/web.xml
