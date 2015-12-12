@@ -23,7 +23,7 @@
 
 5) Assuming Eclipse does not show errors, you are ready to push the application. 
 		http://docs.cloudfoundry.com/docs/using/managing-apps/ide/sts.html#deploy-an-application
-   		On the "Services Selection" panel, click the little icon on the upper right corner and add a SQLDB service. Be sure to call the service "MyDataSource123", or whatever name you previously chose.
+   		On the "Services Selection" panel, click the little icon on the upper right corner and add a SQLDB service. Be sure to call the service "cloudtrader-SQLDB", or whatever name you previously chose.
 
 6) Finish the wizard and wait for your app and service to be deployed. Then you're done! You will find the application URL on the "Overview" page when you double click on your application in the Servers tab.
    Once you launch the application, you will need to populate your database with dummy users and stocks. Find the link to do this in the "Configuration" tab on the CloudTrader homepage.
