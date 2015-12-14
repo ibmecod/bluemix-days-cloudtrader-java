@@ -1,0 +1,13 @@
+---
+declared-services:
+  cloudtrader-SQLDB:
+    label: sqldb
+    plan: sqldb_free
+applications:
+- name: Bluemix-Days-CloudTrader
+  memory: 512M
+  path: cloudtrader.war
+  host: bd-cloudtrader
+  buildpack: liberty-for-java 
+  services:
+  - cloudtrader-SQLDB
