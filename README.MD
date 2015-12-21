@@ -12,7 +12,7 @@ For this app it is as simple as running ```cf push``` from the same folder that 
 
 # One click deploy to Bluemix
 To deploy this app to your Bluemix click this deploy button.
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy)
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/ibmecod/bluemix-days-cloudtrader-java.git)
 
 
 # Adding the Log Analysis service using the ACE UI
